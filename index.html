@@ -1,0 +1,1114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Куда Пицца</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="info">
+            <div class="info-left">
+                <img class="info-location" src="./assets/img/location.svg" alt="location">
+                <form>
+                <select name="region" id="region">
+                    <option value="">Москва</option>
+                    <option value="">Можайск</option>
+                    <option value="">Зеленоград</option>
+                    <option value="">Польский</option>
+                    <option value="">Екатеринбург</option>
+                </select>
+            </form>
+            <p class="info-locations">Проверить адрес</p>
+            <p class="info-deadline">Среднее время доставки*: <span>00:24:19</span></p>
+            </div>
+            <div class="info-right">
+                   <p class="info-worktime"> Время работы: с 11:00 до 23:00</p>
+                   <button> <img src="./assets/img/account.svg" alt="account"> Войти в аккаунт</button>
+            </div>
+        </div>
+    </div>
+    <!-- /.container -->
+    <div class="hr"></div>
+
+    <div class="container">
+        <div class="list" id="navbar">
+             <a href="#" class="list-left">
+                    <img src="./assets/img/pizza-icon.svg" alt="pizza icon">
+                <p>Куда пицца</p>
+            </a>
+                <ul class="list-item">
+                    <li><a class="list-link" href="">Акции</a></li>
+                    <li><a class="list-link" href="">Пицца</a></li>
+                    <li><a class="list-link" href="">Суши</a></li>
+                    <li><a class="list-link" href="">Напитки</a></li>
+                    <li><a class="list-link" href="">Закуски</a></li>
+                    <li><a class="list-link" href="">Комбо</a></li>
+                    <li><a class="list-link" href="">Десерты</a></li>
+                    <li><a class="list-link" href="">Соусы</a></li>
+                </ul>
+            <div class="list-right">
+                <button>
+                    <img src="./assets/img/shopping_bag.svg" alt="shopping bag"> 0 ₽
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="hr"></div>
+
+    <div class="menu">
+        <div class="container">
+            <ul class="menu-item">
+                <li><a href="#" class="menu-link"><img src="./assets/img/fire.svg" alt="food"> <br> Акции</a></li>
+                <li><a href="#pizza" class="menu-link"><img src="./assets/img/pizaa.svg" alt="food"><br>Пицца</a></li>
+                <li><a href="#sushi" class="menu-link"><img src="./assets/img/sushi.svg" alt="food"><br>Суши</a></li>
+                <li><a href="#drink" class="menu-link"><img src="./assets/img/drink.svg" alt="food"><br>Напитки</a></li>
+                <li><a href="#zakuski" class="menu-link"><img src="./assets/img/snacks.svg" alt="food"><br>Закуски</a></li>
+                <li><a href="#combo" class="menu-link"><img src="./assets/img/combo.svg" alt="food"><br>Комбо</a></li>
+                <li><a href="#desert" class="menu-link"><img src="./assets/img/dessert.svg" alt="food"><br>Десерты</a></li>
+                <li><a href="#sous" class="menu-link"><img src="./assets/img/sauce.svg" alt="food"><br>Соусы</a></li>
+            </ul>
+        </div>
+    </div>
+
+     <div class="container">
+           <div class="cards">
+            <div class="card-primary">
+                <img src="./assets/img/pizza-group.png" alt="pizza-group">
+                <p>3 средние пиццы от 999 рублей</p>
+            </div>
+             <div class="card-red">
+                <img src="./assets/img/pizza-box.png" alt="pizza-box">
+                <p>Кэшбек 10% на самовывоз (доставка)</p>
+            </div>
+             <div class="card-primary">
+                <img src="./assets/img/pizza-group.png" alt="pizza-group">
+                <p>3 средние пиццы от 999 рублей</p>
+            </div>
+             <div class="card-red">
+                <img src="./assets/img/pizza-box.png" alt="pizza-box">
+                <p>Кэшбек 10% на самовывоз (доставка)</p>
+            </div>
+           </div>
+
+           <div class="address">
+                <p>Проверить адрес доставки</p>
+                <form>
+                    <img src="./assets/img/location.svg" alt="location">
+                    <input type="text" placeholder="Адрес">
+                </form>
+                <button type="button" class="primary-button">Проверить</button>
+           </div>
+
+           <div id="pizza" class="fastfood">
+                <div class="pizza-item">
+                    <p>Пицца</p>
+                    <button>
+                        <img src="./assets/img/filter.svg" alt="filter"> 
+                        Фильтры
+                    </button>
+                </div>
+                <div class="pizza-group">
+                    <div class="pizza-card">
+                        <span class="plan">NEW</span>
+                        <img src="./assets/img/pizza-1.png" alt="pizza">
+                         <div class="pizza-info">
+                            <p class="pizza-name">
+                                Чикен Сладкий Чили
+                            </p>
+                            <p class="pizza-title">
+                                Курица, Лук, Перец Халапеньо, Сыр Моцарелла, Томатный соу...
+                            </p>
+                            <div class="pizza-price">
+                                <button class="primary-button">Выбрать</button>
+                                <span>от 399 ₽</span>
+                            </div>
+                         </div>
+                    </div>
+                    <div class="pizza-card">
+                        <span class="plan">ХИТ</span>
+                        <img src="./assets/img/pizza-2.png" alt="pizza">
+                         <div class="pizza-info">
+                            <p class="pizza-name">
+                                EASY PEASY огуречный <br> расколбас
+                            </p>
+                            <p class="pizza-title">
+                                Курица, Лук, Перец Халапеньо...
+                            </p>
+                            <div class="pizza-price">
+                                <button class="primary-button">Выбрать</button>
+                                <span>от 549 ₽</span>
+                            </div>
+                         </div>
+                    </div>
+                    <div class="pizza-card">
+                        <img src="./assets/img/pizza-3.png" alt="pizza">
+                         <div class="pizza-info">
+                            <p class="pizza-name">
+                               EASY PEASY чикен а-ля <br> хрен
+                            </p>
+                            <p class="pizza-title">
+                                Курица, Лук, Соус Карбонара,...
+                            </p>
+                            <div class="pizza-price">
+                                <button class="primary-button">Выбрать</button>
+                                <span>от 249 ₽</span>
+                            </div>
+                         </div>
+                    </div>
+                    <div class="pizza-card">
+                        <img src="./assets/img/pizza-4.png" alt="pizza">
+                         <div class="pizza-info">
+                            <p class="pizza-name">
+                               4 сезона
+                            </p>
+                            <p class="pizza-title">
+                                Бекон, Ветчина, Грибы, Курица, Лук, Маслины, Огурцы мари...
+                            </p>
+                            <div class="pizza-price">
+                                <button class="primary-button">Выбрать</button>
+                                <span>от 630 ₽</span>
+                            </div>
+                         </div>
+                    </div>
+                    <div class="pizza-card">
+                        <img src="./assets/img/pizza-5.png" alt="pizza">
+                         <div class="pizza-info">
+                            <p class="pizza-name">
+                               4 сезона
+                            </p>
+                            <p class="pizza-title">
+                                Бекон, Ветчина, Грибы, Курица, Лук, Маслины, Огурцы мари...
+                            </p>
+                            <div class="pizza-price">
+                                <button class="primary-button">Выбрать</button>
+                                <span>от 630 ₽</span>
+                            </div>
+                         </div>
+                    </div>
+                    <div class="pizza-card">
+                        <img src="./assets/img/pizza-6.png" alt="pizza">
+                         <div class="pizza-info">
+                            <p class="pizza-name">
+                               EASY PEASY чикен а-ля <br> хрен
+                            </p>
+                            <p class="pizza-title">
+                                Курица, Лук, Соус Карбонара,...
+                            </p>
+                            <div class="pizza-price">
+                                <button class="primary-button">Выбрать</button>
+                                <span>от 249 ₽</span>
+                            </div>
+                         </div>
+                    </div>
+                    <div class="pizza-card">
+                        <img src="./assets/img/pizza-7.png" alt="pizza">
+                         <div class="pizza-info">
+                            <p class="pizza-name">
+                               Чикен Сладкий Чили
+                            </p>
+                            <p class="pizza-title">
+                                Курица, Лук, Перец Халапеньо, Сыр Моцарелла, Томатный соу...
+                            </p>
+                            <div class="pizza-price">
+                                <button class="primary-button">Выбрать</button>
+                                <span>от 399 ₽</span>
+                            </div>
+                         </div>
+                    </div>
+                    <div class="pizza-card">
+                        <img src="./assets/img/pizza-8.png" alt="pizza">
+                         <div class="pizza-info">
+                            <p class="pizza-name">
+                                EASY PEASY огуречный <br> расколбас
+                            </p>
+                            <p class="pizza-title">
+                                Курица, Лук, Перец Халапеньо...
+                            </p>
+                            <div class="pizza-price">
+                                <button class="primary-button">Выбрать</button>
+                                <span>от 549 ₽</span>
+                            </div>
+                         </div>
+                    </div>
+                </div>
+           </div>
+
+           <div id="sushi" class="fastfood">
+                <div class="pizza-item">
+                    <p>Суши</p>
+                    <button>
+                        <img src="./assets/img/filter.svg" alt="filter"> 
+                        Фильтры
+                    </button>
+                </div>
+                <div class="pizza-group">
+                    <div class="pizza-card">
+                        <span class="plan">NEW</span>
+                        <img src="./assets/img/sushi-1.png" alt="sushi">
+                         <div class="pizza-info">
+                            <p class="pizza-name">
+                                Филадельфия кранч
+                            </p>
+                            <p class="pizza-title">
+                                Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...
+                            </p>
+                            <div class="pizza-price">
+                                <button class="primary-button">Выбрать</button>
+                                <span>от 475 ₽</span>
+                            </div>
+                         </div>
+                    </div>
+                    <div class="pizza-card">
+                        <span class="plan">ХИТ</span>
+                        <img src="./assets/img/sushi-2.png" alt="sushi">
+                         <div class="pizza-info">
+                            <p class="pizza-name">
+                                Филадельфия крем-брюле
+                            </p>
+                            <p class="pizza-title">
+                                Сливочный сыр, семга татаки с тростниковым сахаром, соус у...
+                            </p>
+                            <div class="pizza-price">
+                                <button class="primary-button">Выбрать</button>
+                                <span>от 395 ₽</span>
+                            </div>
+                         </div>
+                    </div>
+                    <div class="pizza-card">
+                        <img src="./assets/img/sushi-3.png" alt="sushi">
+                         <div class="pizza-info">
+                            <p class="pizza-name">
+                               Супер Филадельфия
+                            </p>
+                            <p class="pizza-title">
+                                Действительно много семги, сливочный сыр, огурец, рис, н...
+                            </p>
+                            <div class="pizza-price">
+                                <button class="primary-button">Выбрать</button>
+                                <span>от 425 ₽</span>
+                            </div>
+                         </div>
+                    </div>
+                    <div class="pizza-card">
+                        <img src="./assets/img/sushi-4.png" alt="sushi">
+                         <div class="pizza-info">
+                            <p class="pizza-name">
+                               Тигр мама
+                            </p>
+                            <p class="pizza-title">
+                                Тигровая креветка, огурец, авокадо, соус Айоли, рис, ик...
+                            </p>
+                            <div class="pizza-price">
+                                <button class="primary-button">Выбрать</button>
+                                <span>от 525 ₽</span>
+                            </div>
+                         </div>
+                    </div>
+                    <div class="pizza-card">
+                        <img src="./assets/img/sushi-5.png" alt="sushi">
+                         <div class="pizza-info">
+                            <p class="pizza-name">
+                               Тигр мама
+                            </p>
+                            <p class="pizza-title">
+                                Тигровая креветка, огурец, авокадо, соус Айоли, рис, ик...
+                            </p>
+                            <div class="pizza-price">
+                                <button class="primary-button">Выбрать</button>
+                                <span>от 525 ₽</span>
+                            </div>
+                         </div>
+                    </div>
+                    <div class="pizza-card">
+                        <img src="./assets/img/sushi-6.png" alt="sushi">
+                         <div class="pizza-info">
+                            <p class="pizza-name">
+                               Супер Филадельфия
+                            </p>
+                            <p class="pizza-title">
+                                Действительно много семги, сливочный сыр, огурец, рис, н...
+                            </p>
+                            <div class="pizza-price">
+                                <button class="primary-button">Выбрать</button>
+                                <span>от 425 ₽</span>
+                            </div>
+                         </div>
+                    </div>
+                    <div class="pizza-card">
+                        <img src="./assets/img/sushi-7.png" alt="sushi">
+                         <div class="pizza-info">
+                            <p class="pizza-name">
+                               Филадельфия кранч
+                            </p>
+                            <p class="pizza-title">
+                                Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...
+                            </p>
+                            <div class="pizza-price">
+                                <button class="primary-button">Выбрать</button>
+                                <span>от 475 ₽</span>
+                            </div>
+                         </div>
+                    </div>
+                    <div class="pizza-card">
+                        <img src="./assets/img/sushi-8.png" alt="sushi">
+                         <div class="pizza-info">
+                            <p class="pizza-name">
+                                Филадельфия крем-брюле
+                            </p>
+                            <p class="pizza-title">
+                                Сливочный сыр, семга татаки с тростниковым сахаром, соус у...
+                            </p>
+                            <div class="pizza-price">
+                                <button class="primary-button">Выбрать</button>
+                                <span>от 395 ₽</span>
+                            </div>
+                         </div>
+                    </div>
+                </div>
+           </div>
+
+           <div id="zakuski" class="fastfood">
+                <div class="pizza-item">
+                    <p>Закуски</p>
+                </div>
+                <div class="pizza-group">
+                    <div class="pizza-card">
+                        <span class="plan">NEW</span>
+                        <img src="./assets/img/zakuski-1.png" alt="zakuski">
+                         <div class="pizza-info">
+                            <p class="pizza-name">
+                                Филадельфия кранч
+                            </p>
+                            <p class="pizza-title">
+                                Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...
+                            </p>
+                            <div class="pizza-price">
+                                <button class="primary-button">Выбрать</button>
+                                <span>от 475 ₽</span>
+                            </div>
+                         </div>
+                    </div>
+                    <div class="pizza-card">
+                        <span class="plan">ХИТ</span>
+                        <img src="./assets/img/zakuski-2.png" alt="zakuski">
+                         <div class="pizza-info">
+                            <p class="pizza-name">
+                                Филадельфия крем-брюле
+                            </p>
+                            <p class="pizza-title">
+                                Сливочный сыр, семга татаки с тростниковым сахаром, соус у...
+                            </p>
+                            <div class="pizza-price">
+                                <button class="primary-button">Выбрать</button>
+                                <span>от 395 ₽</span>
+                            </div>
+                         </div>
+                    </div>
+                    <div class="pizza-card">
+                        <img src="./assets/img/zakuski-3.png" alt="zakuski">
+                         <div class="pizza-info">
+                            <p class="pizza-name">
+                               Супер Филадельфия
+                            </p>
+                            <p class="pizza-title">
+                                Действительно много семги, сливочный сыр, огурец, рис, н...
+                            </p>
+                            <div class="pizza-price">
+                                <button class="primary-button">Выбрать</button>
+                                <span>от 425 ₽</span>
+                            </div>
+                         </div>
+                    </div>
+                    <div class="pizza-card">
+                        <img src="./assets/img/zakuski-4.png" alt="zakuski">
+                         <div class="pizza-info">
+                            <p class="pizza-name">
+                               Тигр мама
+                            </p>
+                            <p class="pizza-title">
+                                Тигровая креветка, огурец, авокадо, соус Айоли, рис, ик...
+                            </p>
+                            <div class="pizza-price">
+                                <button class="primary-button">Выбрать</button>
+                                <span>от 525 ₽</span>
+                            </div>
+                         </div>
+                    </div>
+                    <div class="pizza-card">
+                        <img src="./assets/img/zakuski-5.png" alt="zakuski">
+                         <div class="pizza-info">
+                            <p class="pizza-name">
+                               Тигр мама
+                            </p>
+                            <p class="pizza-title">
+                                Тигровая креветка, огурец, авокадо, соус Айоли, рис, ик...
+                            </p>
+                            <div class="pizza-price">
+                                <button class="primary-button">Выбрать</button>
+                                <span>от 525 ₽</span>
+                            </div>
+                         </div>
+                    </div>
+                    <div class="pizza-card">
+                        <img src="./assets/img/zakuski-6.png" alt="zakuski">
+                         <div class="pizza-info">
+                            <p class="pizza-name">
+                               Супер Филадельфия
+                            </p>
+                            <p class="pizza-title">
+                                Действительно много семги, сливочный сыр, огурец, рис, н...
+                            </p>
+                            <div class="pizza-price">
+                                <button class="primary-button">Выбрать</button>
+                                <span>от 425 ₽</span>
+                            </div>
+                         </div>
+                    </div>
+                    <div class="pizza-card">
+                        <img src="./assets/img/zakuski-7.png" alt="zakuski">
+                         <div class="pizza-info">
+                            <p class="pizza-name">
+                               Филадельфия кранч
+                            </p>
+                            <p class="pizza-title">
+                                Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...
+                            </p>
+                            <div class="pizza-price">
+                                <button class="primary-button">Выбрать</button>
+                                <span>от 475 ₽</span>
+                            </div>
+                         </div>
+                    </div>
+                    <div class="pizza-card">
+                        <img src="./assets/img/zakuski-8.png" alt="zakuski">
+                         <div class="pizza-info">
+                            <p class="pizza-name">
+                                Филадельфия крем-брюле
+                            </p>
+                            <p class="pizza-title">
+                                Сливочный сыр, семга татаки с тростниковым сахаром, соус у...
+                            </p>
+                            <div class="pizza-price">
+                                <button class="primary-button">Выбрать</button>
+                                <span>от 395 ₽</span>
+                            </div>
+                         </div>
+                    </div>
+                </div>
+           </div>
+
+           <div id="desert" class="fastfood">
+                <div class="pizza-item">
+                    <p>Десерты</p>
+                </div>
+                <div class="pizza-group">
+                    <div class="pizza-card">
+                        <span class="plan">NEW</span>
+                        <img src="./assets/img/desert-1.png" alt="desert">
+                         <div class="pizza-info">
+                            <p class="pizza-name">
+                                Филадельфия кранч
+                            </p>
+                            <p class="pizza-title">
+                                Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...
+                            </p>
+                            <div class="pizza-price">
+                                <button class="primary-button">Выбрать</button>
+                                <span>от 475 ₽</span>
+                            </div>
+                         </div>
+                    </div>
+                    <div class="pizza-card">
+                        <span class="plan">ХИТ</span>
+                        <img src="./assets/img/desert-2.png" alt="desert">
+                         <div class="pizza-info">
+                            <p class="pizza-name">
+                                Филадельфия крем-брюле
+                            </p>
+                            <p class="pizza-title">
+                                Сливочный сыр, семга татаки с тростниковым сахаром, соус у...
+                            </p>
+                            <div class="pizza-price">
+                                <button class="primary-button">Выбрать</button>
+                                <span>от 395 ₽</span>
+                            </div>
+                         </div>
+                    </div>
+                    <div class="pizza-card">
+                        <img src="./assets/img/desert-3.png" alt="desert">
+                         <div class="pizza-info">
+                            <p class="pizza-name">
+                               Супер Филадельфия
+                            </p>
+                            <p class="pizza-title">
+                                Действительно много семги, сливочный сыр, огурец, рис, н...
+                            </p>
+                            <div class="pizza-price">
+                                <button class="primary-button">Выбрать</button>
+                                <span>от 425 ₽</span>
+                            </div>
+                         </div>
+                    </div>
+                    <div class="pizza-card">
+                        <img src="./assets/img/desert-4.png" alt="desert">
+                         <div class="pizza-info">
+                            <p class="pizza-name">
+                               Тигр мама
+                            </p>
+                            <p class="pizza-title">
+                                Тигровая креветка, огурец, авокадо, соус Айоли, рис, ик...
+                            </p>
+                            <div class="pizza-price">
+                                <button class="primary-button">Выбрать</button>
+                                <span>от 525 ₽</span>
+                            </div>
+                         </div>
+                    </div>
+                    <div class="pizza-card">
+                        <img src="./assets/img/desert-5.png" alt="desert">
+                         <div class="pizza-info">
+                            <p class="pizza-name">
+                               Тигр мама
+                            </p>
+                            <p class="pizza-title">
+                                Тигровая креветка, огурец, авокадо, соус Айоли, рис, ик...
+                            </p>
+                            <div class="pizza-price">
+                                <button class="primary-button">Выбрать</button>
+                                <span>от 525 ₽</span>
+                            </div>
+                         </div>
+                    </div>
+                    <div class="pizza-card">
+                        <img src="./assets/img/desert-6.png" alt="desert">
+                         <div class="pizza-info">
+                            <p class="pizza-name">
+                               Супер Филадельфия
+                            </p>
+                            <p class="pizza-title">
+                                Действительно много семги, сливочный сыр, огурец, рис, н...
+                            </p>
+                            <div class="pizza-price">
+                                <button class="primary-button">Выбрать</button>
+                                <span>от 425 ₽</span>
+                            </div>
+                         </div>
+                    </div>
+                    <div class="pizza-card">
+                        <img src="./assets/img/desert-7.png" alt="desert">
+                         <div class="pizza-info">
+                            <p class="pizza-name">
+                               Филадельфия кранч
+                            </p>
+                            <p class="pizza-title">
+                                Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...
+                            </p>
+                            <div class="pizza-price">
+                                <button class="primary-button">Выбрать</button>
+                                <span>от 475 ₽</span>
+                            </div>
+                         </div>
+                    </div>
+                    <div class="pizza-card">
+                        <img src="./assets/img/desert-8.png" alt="desert">
+                         <div class="pizza-info">
+                            <p class="pizza-name">
+                                Филадельфия крем-брюле
+                            </p>
+                            <p class="pizza-title">
+                                Сливочный сыр, семга татаки с тростниковым сахаром, соус у...
+                            </p>
+                            <div class="pizza-price">
+                                <button class="primary-button">Выбрать</button>
+                                <span>от 395 ₽</span>
+                            </div>
+                         </div>
+                    </div>
+                </div>
+           </div>
+
+           <div id="drink" class="fastfood">
+                <div class="pizza-item">
+                    <p>Напитки</p>
+                </div>
+                <div class="pizza-group">
+                    <div class="pizza-card">
+                        <span class="plan">NEW</span>
+                        <img src="./assets/img/drink-1.png" alt="drink">
+                         <div class="pizza-info">
+                            <p class="pizza-name">
+                                Филадельфия кранч
+                            </p>
+                            <p class="pizza-title">
+                                Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...
+                            </p>
+                            <div class="pizza-price">
+                                <button class="primary-button">Выбрать</button>
+                                <span>от 475 ₽</span>
+                            </div>
+                         </div>
+                    </div>
+                    <div class="pizza-card">
+                        <span class="plan">ХИТ</span>
+                        <img src="./assets/img/drink-2.png" alt="drink">
+                         <div class="pizza-info">
+                            <p class="pizza-name">
+                                Филадельфия крем-брюле
+                            </p>
+                            <p class="pizza-title">
+                                Сливочный сыр, семга татаки с тростниковым сахаром, соус у...
+                            </p>
+                            <div class="pizza-price">
+                                <button class="primary-button">Выбрать</button>
+                                <span>от 395 ₽</span>
+                            </div>
+                         </div>
+                    </div>
+                    <div class="pizza-card">
+                        <img src="./assets/img/drink-3.png" alt="drink">
+                         <div class="pizza-info">
+                            <p class="pizza-name">
+                               Супер Филадельфия
+                            </p>
+                            <p class="pizza-title">
+                                Действительно много семги, сливочный сыр, огурец, рис, н...
+                            </p>
+                            <div class="pizza-price">
+                                <button class="primary-button">Выбрать</button>
+                                <span>от 425 ₽</span>
+                            </div>
+                         </div>
+                    </div>
+                    <div class="pizza-card">
+                        <img src="./assets/img/drink-4.png" alt="drink">
+                         <div class="pizza-info">
+                            <p class="pizza-name">
+                               Тигр мама
+                            </p>
+                            <p class="pizza-title">
+                                Тигровая креветка, огурец, авокадо, соус Айоли, рис, ик...
+                            </p>
+                            <div class="pizza-price">
+                                <button class="primary-button">Выбрать</button>
+                                <span>от 525 ₽</span>
+                            </div>
+                         </div>
+                    </div>
+                    <div class="pizza-card">
+                        <img src="./assets/img/drink-5.png" alt="drink">
+                         <div class="pizza-info">
+                            <p class="pizza-name">
+                               Тигр мама
+                            </p>
+                            <p class="pizza-title">
+                                Тигровая креветка, огурец, авокадо, соус Айоли, рис, ик...
+                            </p>
+                            <div class="pizza-price">
+                                <button class="primary-button">Выбрать</button>
+                                <span>от 525 ₽</span>
+                            </div>
+                         </div>
+                    </div>
+                    <div class="pizza-card">
+                        <img src="./assets/img/drink-6.png" alt="drink">
+                         <div class="pizza-info">
+                            <p class="pizza-name">
+                               Супер Филадельфия
+                            </p>
+                            <p class="pizza-title">
+                                Действительно много семги, сливочный сыр, огурец, рис, н...
+                            </p>
+                            <div class="pizza-price">
+                                <button class="primary-button">Выбрать</button>
+                                <span>от 425 ₽</span>
+                            </div>
+                         </div>
+                    </div>
+                    <div class="pizza-card">
+                        <img src="./assets/img/drink-7.png" alt="drink">
+                         <div class="pizza-info">
+                            <p class="pizza-name">
+                               Филадельфия кранч
+                            </p>
+                            <p class="pizza-title">
+                                Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...
+                            </p>
+                            <div class="pizza-price">
+                                <button class="primary-button">Выбрать</button>
+                                <span>от 475 ₽</span>
+                            </div>
+                         </div>
+                    </div>
+                    <div class="pizza-card">
+                        <img src="./assets/img/drink-8.png" alt="drink">
+                         <div class="pizza-info">
+                            <p class="pizza-name">
+                                Филадельфия крем-брюле
+                            </p>
+                            <p class="pizza-title">
+                                Сливочный сыр, семга татаки с тростниковым сахаром, соус у...
+                            </p>
+                            <div class="pizza-price">
+                                <button class="primary-button">Выбрать</button>
+                                <span>от 395 ₽</span>
+                            </div>
+                         </div>
+                    </div>
+                </div>
+           </div>
+
+           <div id="sous" class="fastfood">
+                <div class="pizza-item">
+                    <p>Соусы</p>
+                </div>
+                <div class="pizza-group">
+                    <div class="pizza-card">
+                        <span class="plan">NEW</span>
+                        <img src="./assets/img/sous-1.png" alt="sous">
+                         <div class="pizza-info">
+                            <p class="pizza-name">
+                                Филадельфия кранч
+                            </p>
+                            <p class="pizza-title">
+                                Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...
+                            </p>
+                            <div class="pizza-price">
+                                <button class="primary-button">Выбрать</button>
+                                <span>от 475 ₽</span>
+                            </div>
+                         </div>
+                    </div>
+                    <div class="pizza-card">
+                        <span class="plan">ХИТ</span>
+                        <img src="./assets/img/sous-2.png" alt="sous">
+                         <div class="pizza-info">
+                            <p class="pizza-name">
+                                Филадельфия крем-брюле
+                            </p>
+                            <p class="pizza-title">
+                                Сливочный сыр, семга татаки с тростниковым сахаром, соус у...
+                            </p>
+                            <div class="pizza-price">
+                                <button class="primary-button">Выбрать</button>
+                                <span>от 395 ₽</span>
+                            </div>
+                         </div>
+                    </div>
+                    <div class="pizza-card">
+                        <img src="./assets/img/sous-3.png" alt="sous">
+                         <div class="pizza-info">
+                            <p class="pizza-name">
+                               Супер Филадельфия
+                            </p>
+                            <p class="pizza-title">
+                                Действительно много семги, сливочный сыр, огурец, рис, н...
+                            </p>
+                            <div class="pizza-price">
+                                <button class="primary-button">Выбрать</button>
+                                <span>от 425 ₽</span>
+                            </div>
+                         </div>
+                    </div>
+                    <div class="pizza-card">
+                        <img src="./assets/img/sous-4.png" alt="sous">
+                         <div class="pizza-info">
+                            <p class="pizza-name">
+                               Тигр мама
+                            </p>
+                            <p class="pizza-title">
+                                Тигровая креветка, огурец, авокадо, соус Айоли, рис, ик...
+                            </p>
+                            <div class="pizza-price">
+                                <button class="primary-button">Выбрать</button>
+                                <span>от 525 ₽</span>
+                            </div>
+                         </div>
+                    </div>
+                    <div class="pizza-card">
+                        <img src="./assets/img/sous-5.png" alt="sous">
+                         <div class="pizza-info">
+                            <p class="pizza-name">
+                               Тигр мама
+                            </p>
+                            <p class="pizza-title">
+                                Тигровая креветка, огурец, авокадо, соус Айоли, рис, ик...
+                            </p>
+                            <div class="pizza-price">
+                                <button class="primary-button">Выбрать</button>
+                                <span>от 525 ₽</span>
+                            </div>
+                         </div>
+                    </div>
+                    <div class="pizza-card">
+                        <img src="./assets/img/sous-6.png" alt="sous">
+                         <div class="pizza-info">
+                            <p class="pizza-name">
+                               Супер Филадельфия
+                            </p>
+                            <p class="pizza-title">
+                                Действительно много семги, сливочный сыр, огурец, рис, н...
+                            </p>
+                            <div class="pizza-price">
+                                <button class="primary-button">Выбрать</button>
+                                <span>от 425 ₽</span>
+                            </div>
+                         </div>
+                    </div>
+                    <div class="pizza-card">
+                        <img src="./assets/img/sous-7.png" alt="sous">
+                         <div class="pizza-info">
+                            <p class="pizza-name">
+                               Филадельфия кранч
+                            </p>
+                            <p class="pizza-title">
+                                Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...
+                            </p>
+                            <div class="pizza-price">
+                                <button class="primary-button">Выбрать</button>
+                                <span>от 475 ₽</span>
+                            </div>
+                         </div>
+                    </div>
+                    <div class="pizza-card">
+                        <img src="./assets/img/sous-8.png" alt="sous">
+                         <div class="pizza-info">
+                            <p class="pizza-name">
+                                Филадельфия крем-брюле
+                            </p>
+                            <p class="pizza-title">
+                                Сливочный сыр, семга татаки с тростниковым сахаром, соус у...
+                            </p>
+                            <div class="pizza-price">
+                                <button class="primary-button">Выбрать</button>
+                                <span>от 395 ₽</span>
+                            </div>
+                         </div>
+                    </div>
+                </div>
+           </div>
+
+           <div id="combo" class="fastfood">
+                <div class="pizza-item">
+                    <p>Комбо</p>
+                </div>
+                <div class="pizza-group">
+                    <div class="pizza-card">
+                        <img src="./assets/img/kombo-1.png" alt="kombo">
+                         <div class="pizza-info">
+                            <p class="pizza-name">
+                                Филадельфия кранч
+                            </p>
+                            <p class="pizza-title">
+                                Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...
+                            </p>
+                            <div class="pizza-price">
+                                <button class="primary-button">Выбрать</button>
+                                <span>от 475 ₽</span>
+                            </div>
+                         </div>
+                    </div>
+                    <div class="pizza-card">
+                        <img src="./assets/img/kombo-2.png" alt="kombo">
+                         <div class="pizza-info">
+                            <p class="pizza-name">
+                                Филадельфия крем-брюле
+                            </p>
+                            <p class="pizza-title">
+                                Сливочный сыр, семга татаки с тростниковым сахаром, соус у...
+                            </p>
+                            <div class="pizza-price">
+                                <button class="primary-button">Выбрать</button>
+                                <span>от 395 ₽</span>
+                            </div>
+                         </div>
+                    </div>
+                    <div class="pizza-card">
+                        <img src="./assets/img/kombo-3.png" alt="kombo">
+                         <div class="pizza-info">
+                            <p class="pizza-name">
+                               Супер Филадельфия
+                            </p>
+                            <p class="pizza-title">
+                                Действительно много семги, сливочный сыр, огурец, рис, н...
+                            </p>
+                            <div class="pizza-price">
+                                <button class="primary-button">Выбрать</button>
+                                <span>от 425 ₽</span>
+                            </div>
+                         </div>
+                    </div>
+                    <div class="pizza-card">
+                        <img src="./assets/img/kombo-4.png" alt="kombo">
+                         <div class="pizza-info">
+                            <p class="pizza-name">
+                               Тигр мама
+                            </p>
+                            <p class="pizza-title">
+                                Тигровая креветка, огурец, авокадо, соус Айоли, рис, ик...
+                            </p>
+                            <div class="pizza-price">
+                                <button class="primary-button">Выбрать</button>
+                                <span>от 525 ₽</span>
+                            </div>
+                         </div>
+                    </div>
+                    <div class="pizza-card">
+                        <img src="./assets/img/kombo-5.png" alt="kombo">
+                         <div class="pizza-info">
+                            <p class="pizza-name">
+                               Тигр мама
+                            </p>
+                            <p class="pizza-title">
+                                Тигровая креветка, огурец, авокадо, соус Айоли, рис, ик...
+                            </p>
+                            <div class="pizza-price">
+                                <button class="primary-button">Выбрать</button>
+                                <span>от 525 ₽</span>
+                            </div>
+                         </div>
+                    </div>
+                    <div class="pizza-card">
+                        <img src="./assets/img/kombo-6.png" alt="kombo">
+                         <div class="pizza-info">
+                            <p class="pizza-name">
+                               Супер Филадельфия
+                            </p>
+                            <p class="pizza-title">
+                                Действительно много семги, сливочный сыр, огурец, рис, н...
+                            </p>
+                            <div class="pizza-price">
+                                <button class="primary-button">Выбрать</button>
+                                <span>от 425 ₽</span>
+                            </div>
+                         </div>
+                    </div>
+                    <div class="pizza-card">
+                        <img src="./assets/img/kombo-7.png" alt="kombo">
+                         <div class="pizza-info">
+                            <p class="pizza-name">
+                               Филадельфия кранч
+                            </p>
+                            <p class="pizza-title">
+                                Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...
+                            </p>
+                            <div class="pizza-price">
+                                <button class="primary-button">Выбрать</button>
+                                <span>от 475 ₽</span>
+                            </div>
+                         </div>
+                    </div>
+                    <div class="pizza-card">
+                        <img src="./assets/img/kombo-8.png" alt="kombo">
+                         <div class="pizza-info">
+                            <p class="pizza-name">
+                                Филадельфия крем-брюле
+                            </p>
+                            <p class="pizza-title">
+                                Сливочный сыр, семга татаки с тростниковым сахаром, соус у...
+                            </p>
+                            <div class="pizza-price">
+                                <button class="primary-button">Выбрать</button>
+                                <span>от 395 ₽</span>
+                            </div>
+                         </div>
+                    </div>
+                </div>
+           </div>
+     </div>
+
+     <div class="dostavka-info">
+        <p class="dostavka-location">
+            Доставка пиццы в Москве
+        </p>
+        <p class="dostavka-title">
+            Захотелось чего-то вкусного и сытного? Желание простое и понятное, только в холодильнике все не то, и до магазина идти лень. Все пропало? Нет. Недорого заказать пиццу в Москве очень просто! Вам на помощь спешит супергерой – Domino’s Pizza! Как у всякого супергероя, у Domino’s Pizza есть свои суперсилы: восхитительный вкус продукции из отборных ингредиентов; широкий ассортимент, включающий легендарные, фирменные и классические виды, для вегетарианцев и любителей экспериментировать; быстрая и бесплатная доставка пиццы в течение 30 минут, чтобы вкусное и ароматное блюдо не успевало остыть.
+            <br><br>
+            <b>Как сделать заказ</b> <br>
+Доставка пиццы от Domino’s – это когда Вам не нужно никуда ехать или звонить, ведь есть Интернет. Никогда еще заказ пиццы на дом в Москве не был таким простым! Чтобы заказать пиццу онлайн, Вам необходимо: выбрать понравившийся вариант и количество порций; положить желаемое в «Корзину»; не уходить далеко, так как вкусная пицца на заказ с доставкой уже мчится к Вам из ближайшей пиццерии Domino’s. И не забудьте оплатить заказ курьеру!
+        </p>
+
+        <a href="#" class="dostavka-link">Показать полностью</a>
+     </div>
+
+     <div class="container">
+        <div class="footer">
+            <div class="footer-item">
+                <a href="#" class="list-left">
+                    <img src="./assets/img/pizza-icon.svg" alt="pizza icon">
+                <p>Куда пицца</p>
+                </a>
+            </div>
+            <div class="footer-item">
+                <p class="footer-name">Куда пицца</p>
+                <ul class="footer-list">
+                    <li>
+                        <a class="footer-link" href="#">О компании</a>
+                    </li>
+                    <li>
+                        <a class="footer-link" href="#">Пользовательское соглашение</a>
+                    </li>
+                    <li>
+                        <a class="footer-link" href="#">Условия гарантии</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-item">
+                <p class="footer-name">Помощь</p>
+                <ul class="footer-list">
+                    <li>
+                        <a class="footer-link" href="#">Ресторан</a>
+                    </li>
+                    <li>
+                        <a class="footer-link" href="#">Контакты</a>
+                    </li>
+                    <li>
+                        <a class="footer-link" href="#">Поддержка</a>
+                    </li>
+                    <li>
+                        <a class="footer-link" href="#">Отследить заказ</a>
+                    </li>
+                </ul>
+            </div>
+             <div class="footer-item">
+                <p class="footer-name">Контакты</p>
+                <ul class="footer-list">
+                    <li>
+                        <img src="./assets/img/phone.svg" alt="phone"> 
+                        <a class="footer-link" href="#">
+                            +7 (926) 223-10-11
+                        </a>
+                    </li>
+                    <li>
+                        <img src="./assets/img/location.svg" alt="location"> 
+                        <a class="footer-link" href="#">
+                            Москва, ул. Юных Ленинцев, д.99
+                        </a>
+                    </li>
+                    <li>
+                        <img src="./assets/img/facebook.svg" alt="Facebok">
+                        <a class="footer-link" href="">Facebok</a>
+                    </li>
+                    <li>
+                        <img src="./assets/img/instagram.svg" alt="instagram">
+                        <a class="footer-link" href="#">Instagram</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+     </div>
+
+
+     <br><br><br><br><br>
+
+</body>
+
+
+<script src="./assets/main.js"></script>
+</html>

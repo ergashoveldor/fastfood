@@ -1,0 +1,415 @@
+*::after, *::before, * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --white: #fff;
+    --black: #191919;
+    --line-gray: #F0F0F0;
+    --primary:  #FF7010;
+    --background-gray: #F9F9F9;
+    --red: #E23535;
+}
+
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--background-gray);
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.hr {
+    height: 1px;
+    background: var(--line-gray);
+}
+
+.container {
+    max-width: 1290px;
+    margin: 0 auto;
+    
+}
+
+/* Info styles */
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 20px;
+    margin: 11px 0;
+    color: var(--black);
+}
+
+.info-left, .info-right {
+    display: flex;
+    align-items: center;
+}
+
+.info-location {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    margin-right: 8px;
+}
+
+select {
+    border: none;
+    font-size: 14px;
+    background-color: var(--background-gray);
+    width: 72px;
+     color: var(--black);
+}
+
+select:focus {
+    outline: none !important;
+   
+}
+
+option {
+    font-size: 14px;
+    border: none;
+    border-radius: 15px;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.info-locations, .info-deadline {
+    margin-left: 40px;
+    font-size: 14px;
+}
+
+.info-deadline span{
+    font-weight: 600;
+}
+
+.info-right button {
+    background-color: var(--background-gray);
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.info-right button img {
+    margin-right: 8px;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 16px 0;
+}
+
+.list-item {
+    display: flex;
+}
+
+.list-item li {
+    margin-left: 32px;
+}
+
+.list-link {
+    color: var(--black);
+}
+
+.list-left, .list-right {
+    display: flex;
+    align-items: center;
+}
+
+.list-left p {
+    margin-left: 12px;
+    color: var(--black);
+}
+
+.list-right button {
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    background: var(--primary);
+    padding: 8px 16px;
+    font-size: 20px;
+    color: var(--white);
+}
+
+.list-right button img {
+    margin-right: 8px;
+    width: 24px;
+    height: 24px;
+    object-fit: cover;
+}
+
+.menu {
+    background: var(--background-gray);
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.menu-item li {
+    border-radius: 12px;
+    border: 1px solid var(--line-gray);
+    background-color: var(--white);
+    padding: 20px 39px;
+}
+
+.menu-item li img {
+    margin-bottom: 8px;
+}
+
+.menu-link {
+    color: var(--black);
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    color: var(--white);
+    margin-bottom: 30px;
+}
+
+.card-primary {
+    background-color: var(--primary);
+    height: 343px;
+    font-size: 20px;
+    width: 300px;
+    font-weight: 600;
+    border-radius: 12px;
+}
+
+.card-primary img, .card-red img {
+    border-radius: 12px;
+}
+
+.card-primary p, .card-red p {
+        padding: 20px;
+        width: 240px;
+}
+
+.card-red p {
+    width: 280px;
+}
+
+.card-red {
+    background-color: var(--red);
+    height: 343px;
+    font-size: 20px;
+    width: 300px;
+    font-weight: 600;
+    border-radius: 12px;
+}
+
+.card-red img {
+    padding-top: 72px;
+    padding-bottom: 45px;
+}
+
+.address {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 32px;
+    background-color: var(--white);
+    border-radius: 8px;
+    margin-bottom: 34px;
+}
+
+.address p {
+    color: var(--black);
+    font-size: 18px;
+}
+
+.address form {
+    position: relative;
+}
+
+.address form img {
+    position: absolute;
+    top: 14px;
+    left: 12px;
+}
+
+.address form input {
+    width: 743px;
+    padding: 13px 40px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid var(--line-gray);
+    background: #FFF;
+}
+
+.address form input:focus {
+    outline: none;
+}
+
+.primary-button {
+    padding: 13px 32px;
+    background-color: var(--primary);
+    border-radius: 6px;
+    color: var(--white);
+    font-size: 16px;
+}
+
+.fastfood {
+    margin-bottom: 46px;
+}
+
+.pizza-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pizza-item p {
+    font-size: 40px;
+    font-weight: 600;
+    color: var(--black);
+    margin-bottom: 32px;
+}
+
+.pizza-item button {
+    border-radius: 6px;
+    border: 1px solid var(--line-gray);
+    background: #FFF;
+    padding: 9px 16px;
+     font-size: 18px;
+}
+
+.pizza-item button img {
+    margin-right: 8px;
+   
+}
+
+.pizza-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.pizza-card {
+    width: 300px;
+    height: 480px;
+    border-radius: 12px;
+    border: 1px solid var(--line-gray);
+    background: var(--white, #FFF);
+    position: relative;
+}
+
+.plan {
+    position: absolute;
+    color: var(--white);
+    top: 20px;
+    background-color: var(--red);
+    font-size: 14px;
+    padding: 7px 16px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.pizza-info {
+    padding: 20px 15px;
+}
+
+.pizza-name {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--black);
+    margin-bottom: 12px;
+}
+
+.pizza-title {
+    margin-bottom: 16px;
+}
+
+.pizza-price {
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pizza-price span {
+    color: var(--primary);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.dostavka-info {
+    max-width: 850px;
+    margin: 60px auto 16px auto;
+}
+
+.dostavka-location {
+    color: var(--black);
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.dostavka-title {
+    text-align: justify;
+    color: var(--black);
+    line-height: 22px;
+    margin-bottom: 16px;
+}
+
+.dostavka-link {
+    color: var(--primary);
+    font-weight: 600;
+}
+
+.footer {
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-name {
+    font-size: 20px;
+    color: var(--black);
+    font-weight: 600;
+    margin-bottom: 22px;
+}
+
+.footer-list li {
+    line-height: 2.5;
+    display: flex;
+    align-items: center;
+}
+
+.footer-list li img {
+    margin-right: 12px;
+}
+
+.footer-link {
+    color: var(--black);
+}
+
+
+
+
+
+/* 
+
+#F9F9F9, #F9F9F9
+*/
